@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0453AF1C3F6DE000923A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0453AE1C3F6DE000923A5B /* main.m */; };
+		EF0453B21C3F6DE000923A5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0453B11C3F6DE000923A5B /* AppDelegate.m */; };
+		EF0453B51C3F6DE000923A5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0453B41C3F6DE000923A5B /* ViewController.m */; };
+		EF0453B81C3F6DE000923A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0453B61C3F6DE000923A5B /* Main.storyboard */; };
+		EF0453BA1C3F6DE000923A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0453B91C3F6DE000923A5B /* Assets.xcassets */; };
+		EF0453BD1C3F6DE000923A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0453BB1C3F6DE000923A5B /* LaunchScreen.storyboard */; };
+		EF0453C81C3F6DE000923A5B /* CameraOverlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0453C71C3F6DE000923A5B /* CameraOverlayTests.m */; };
+		EF0453D31C3F6DE000923A5B /* CameraOverlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0453D21C3F6DE000923A5B /* CameraOverlayUITests.m */; };
+		EF15A95E1C8E6B06002BBBBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF15A95D1C8E6B06002BBBBC /* UIKit.framework */; };
+		EF15A9851C8E7329002BBBBC /* AnnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15A9831C8E7329002BBBBC /* AnnimationController.m */; };
+		EF15A9861C8E7329002BBBBC /* AnnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF15A9841C8E7329002BBBBC /* AnnimationController.xib */; };
+		EF15A98A1C8E7633002BBBBC /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF15A9881C8E7633002BBBBC /* ImageCell.m */; };
+		EF15A98B1C8E7633002BBBBC /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF15A9891C8E7633002BBBBC /* ImageCell.xib */; };
+		EF6F0A7A1C927276009E18B3 /* icon_pad.png in Resources */ = {isa = PBXBuildFile; fileRef = EF6F0A791C927276009E18B3 /* icon_pad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF0453C41C3F6DE000923A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0453A21C3F6DE000923A5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0453A91C3F6DE000923A5B;
+			remoteInfo = CameraOverlay;
+		};
+		EF0453CF1C3F6DE000923A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0453A21C3F6DE000923A5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0453A91C3F6DE000923A5B;
+			remoteInfo = CameraOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF0453AA1C3F6DE000923A5B /* ScrollAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0453AE1C3F6DE000923A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF0453B01C3F6DE000923A5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF0453B11C3F6DE000923A5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF0453B31C3F6DE000923A5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF0453B41C3F6DE000923A5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF0453B71C3F6DE000923A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF0453B91C3F6DE000923A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF0453BC1C3F6DE000923A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF0453BE1C3F6DE000923A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0453C31C3F6DE000923A5B /* ScrollAnimation.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollAnimation.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0453C71C3F6DE000923A5B /* CameraOverlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraOverlayTests.m; sourceTree = "<group>"; };
+		EF0453C91C3F6DE000923A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0453CE1C3F6DE000923A5B /* ScrollAnimation.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollAnimation.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0453D21C3F6DE000923A5B /* CameraOverlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraOverlayUITests.m; sourceTree = "<group>"; };
+		EF0453D41C3F6DE000923A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF15A95D1C8E6B06002BBBBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF15A9821C8E7329002BBBBC /* AnnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnimationController.h; sourceTree = "<group>"; };
+		EF15A9831C8E7329002BBBBC /* AnnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnimationController.m; sourceTree = "<group>"; };
+		EF15A9841C8E7329002BBBBC /* AnnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnimationController.xib; sourceTree = "<group>"; };
+		EF15A9871C8E7633002BBBBC /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		EF15A9881C8E7633002BBBBC /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		EF15A9891C8E7633002BBBBC /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		EF6F0A791C927276009E18B3 /* icon_pad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pad.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0453A71C3F6DE000923A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF15A95E1C8E6B06002BBBBC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0453C01C3F6DE000923A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0453CB1C3F6DE000923A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0453A11C3F6DE000923A5B = {
+			isa = PBXGroup;
+			children = (
+				EF15A95D1C8E6B06002BBBBC /* UIKit.framework */,
+				EF0453AC1C3F6DE000923A5B /* CameraOverlay */,
+				EF0453C61C3F6DE000923A5B /* CameraOverlayTests */,
+				EF0453D11C3F6DE000923A5B /* CameraOverlayUITests */,
+				EF0453AB1C3F6DE000923A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF0453AB1C3F6DE000923A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0453AA1C3F6DE000923A5B /* ScrollAnimation.app */,
+				EF0453C31C3F6DE000923A5B /* ScrollAnimation.xctest */,
+				EF0453CE1C3F6DE000923A5B /* ScrollAnimation.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0453AC1C3F6DE000923A5B /* CameraOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F0A781C927269009E18B3 /* image */,
+				EF0453B01C3F6DE000923A5B /* AppDelegate.h */,
+				EF0453B11C3F6DE000923A5B /* AppDelegate.m */,
+				EF0453B31C3F6DE000923A5B /* ViewController.h */,
+				EF0453B41C3F6DE000923A5B /* ViewController.m */,
+				EF0453B61C3F6DE000923A5B /* Main.storyboard */,
+				EF15A9821C8E7329002BBBBC /* AnnimationController.h */,
+				EF15A9831C8E7329002BBBBC /* AnnimationController.m */,
+				EF15A9841C8E7329002BBBBC /* AnnimationController.xib */,
+				EF15A9871C8E7633002BBBBC /* ImageCell.h */,
+				EF15A9881C8E7633002BBBBC /* ImageCell.m */,
+				EF15A9891C8E7633002BBBBC /* ImageCell.xib */,
+				EF0453B91C3F6DE000923A5B /* Assets.xcassets */,
+				EF0453BB1C3F6DE000923A5B /* LaunchScreen.storyboard */,
+				EF0453BE1C3F6DE000923A5B /* Info.plist */,
+				EF0453AD1C3F6DE000923A5B /* Supporting Files */,
+			);
+			path = CameraOverlay;
+			sourceTree = "<group>";
+		};
+		EF0453AD1C3F6DE000923A5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF0453AE1C3F6DE000923A5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF0453C61C3F6DE000923A5B /* CameraOverlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0453C71C3F6DE000923A5B /* CameraOverlayTests.m */,
+				EF0453C91C3F6DE000923A5B /* Info.plist */,
+			);
+			path = CameraOverlayTests;
+			sourceTree = "<group>";
+		};
+		EF0453D11C3F6DE000923A5B /* CameraOverlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0453D21C3F6DE000923A5B /* CameraOverlayUITests.m */,
+				EF0453D41C3F6DE000923A5B /* Info.plist */,
+			);
+			path = CameraOverlayUITests;
+			sourceTree = "<group>";
+		};
+		EF6F0A781C927269009E18B3 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F0A791C927276009E18B3 /* icon_pad.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0453A91C3F6DE000923A5B /* ScrollAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0453D71C3F6DE000923A5B /* Build configuration list for PBXNativeTarget "ScrollAnimation" */;
+			buildPhases = (
+				EF0453A61C3F6DE000923A5B /* Sources */,
+				EF0453A71C3F6DE000923A5B /* Frameworks */,
+				EF0453A81C3F6DE000923A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollAnimation;
+			productName = CameraOverlay;
+			productReference = EF0453AA1C3F6DE000923A5B /* ScrollAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF0453C21C3F6DE000923A5B /* ScrollAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0453DA1C3F6DE000923A5B /* Build configuration list for PBXNativeTarget "ScrollAnimationTests" */;
+			buildPhases = (
+				EF0453BF1C3F6DE000923A5B /* Sources */,
+				EF0453C01C3F6DE000923A5B /* Frameworks */,
+				EF0453C11C3F6DE000923A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0453C51C3F6DE000923A5B /* PBXTargetDependency */,
+			);
+			name = ScrollAnimationTests;
+			productName = CameraOverlayTests;
+			productReference = EF0453C31C3F6DE000923A5B /* ScrollAnimation.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF0453CD1C3F6DE000923A5B /* ScrollAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0453DD1C3F6DE000923A5B /* Build configuration list for PBXNativeTarget "ScrollAnimationUITests" */;
+			buildPhases = (
+				EF0453CA1C3F6DE000923A5B /* Sources */,
+				EF0453CB1C3F6DE000923A5B /* Frameworks */,
+				EF0453CC1C3F6DE000923A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0453D01C3F6DE000923A5B /* PBXTargetDependency */,
+			);
+			name = ScrollAnimationUITests;
+			productName = CameraOverlayUITests;
+			productReference = EF0453CE1C3F6DE000923A5B /* ScrollAnimation.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0453A21C3F6DE000923A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = datxqv;
+				TargetAttributes = {
+					EF0453A91C3F6DE000923A5B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = C46U2TWZN6;
+					};
+					EF0453C21C3F6DE000923A5B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = C46U2TWZN6;
+						TestTargetID = EF0453A91C3F6DE000923A5B;
+					};
+					EF0453CD1C3F6DE000923A5B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = C46U2TWZN6;
+						TestTargetID = EF0453A91C3F6DE000923A5B;
+					};
+				};
+			};
+			buildConfigurationList = EF0453A51C3F6DE000923A5B /* Build configuration list for PBXProject "ScrollAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF0453A11C3F6DE000923A5B;
+			productRefGroup = EF0453AB1C3F6DE000923A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0453A91C3F6DE000923A5B /* ScrollAnimation */,
+				EF0453C21C3F6DE000923A5B /* ScrollAnimationTests */,
+				EF0453CD1C3F6DE000923A5B /* ScrollAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0453A81C3F6DE000923A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0453BD1C3F6DE000923A5B /* LaunchScreen.storyboard in Resources */,
+				EF0453BA1C3F6DE000923A5B /* Assets.xcassets in Resources */,
+				EF0453B81C3F6DE000923A5B /* Main.storyboard in Resources */,
+				EF15A98B1C8E7633002BBBBC /* ImageCell.xib in Resources */,
+				EF6F0A7A1C927276009E18B3 /* icon_pad.png in Resources */,
+				EF15A9861C8E7329002BBBBC /* AnnimationController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0453C11C3F6DE000923A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0453CC1C3F6DE000923A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0453A61C3F6DE000923A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF15A9851C8E7329002BBBBC /* AnnimationController.m in Sources */,
+				EF15A98A1C8E7633002BBBBC /* ImageCell.m in Sources */,
+				EF0453B51C3F6DE000923A5B /* ViewController.m in Sources */,
+				EF0453B21C3F6DE000923A5B /* AppDelegate.m in Sources */,
+				EF0453AF1C3F6DE000923A5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0453BF1C3F6DE000923A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0453C81C3F6DE000923A5B /* CameraOverlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0453CA1C3F6DE000923A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0453D31C3F6DE000923A5B /* CameraOverlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF0453C51C3F6DE000923A5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0453A91C3F6DE000923A5B /* ScrollAnimation */;
+			targetProxy = EF0453C41C3F6DE000923A5B /* PBXContainerItemProxy */;
+		};
+		EF0453D01C3F6DE000923A5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0453A91C3F6DE000923A5B /* ScrollAnimation */;
+			targetProxy = EF0453CF1C3F6DE000923A5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF0453B61C3F6DE000923A5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0453B71C3F6DE000923A5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF0453BB1C3F6DE000923A5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0453BC1C3F6DE000923A5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0453D51C3F6DE000923A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF0453D61C3F6DE000923A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0453D81C3F6DE000923A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CameraOverlay/Library/Facebook",
+				);
+				INFOPLIST_FILE = CameraOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datxqv.CameraOverlay;
+				PRODUCT_NAME = ScrollAnimation;
+			};
+			name = Debug;
+		};
+		EF0453D91C3F6DE000923A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CameraOverlay/Library/Facebook",
+				);
+				INFOPLIST_FILE = CameraOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datxqv.CameraOverlay;
+				PRODUCT_NAME = ScrollAnimation;
+			};
+			name = Release;
+		};
+		EF0453DB1C3F6DE000923A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CameraOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datxqv.CameraOverlayTests;
+				PRODUCT_NAME = ScrollAnimation;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollAnimation.app/ScrollAnimation";
+			};
+			name = Debug;
+		};
+		EF0453DC1C3F6DE000923A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CameraOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datxqv.CameraOverlayTests;
+				PRODUCT_NAME = ScrollAnimation;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollAnimation.app/ScrollAnimation";
+			};
+			name = Release;
+		};
+		EF0453DE1C3F6DE000923A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CameraOverlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datxqv.CameraOverlayUITests;
+				PRODUCT_NAME = ScrollAnimation;
+				TEST_TARGET_NAME = CameraOverlay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF0453DF1C3F6DE000923A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CameraOverlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.datxqv.CameraOverlayUITests;
+				PRODUCT_NAME = ScrollAnimation;
+				TEST_TARGET_NAME = CameraOverlay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0453A51C3F6DE000923A5B /* Build configuration list for PBXProject "ScrollAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0453D51C3F6DE000923A5B /* Debug */,
+				EF0453D61C3F6DE000923A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0453D71C3F6DE000923A5B /* Build configuration list for PBXNativeTarget "ScrollAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0453D81C3F6DE000923A5B /* Debug */,
+				EF0453D91C3F6DE000923A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0453DA1C3F6DE000923A5B /* Build configuration list for PBXNativeTarget "ScrollAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0453DB1C3F6DE000923A5B /* Debug */,
+				EF0453DC1C3F6DE000923A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0453DD1C3F6DE000923A5B /* Build configuration list for PBXNativeTarget "ScrollAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0453DE1C3F6DE000923A5B /* Debug */,
+				EF0453DF1C3F6DE000923A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0453A21C3F6DE000923A5B /* Project object */;
+}
